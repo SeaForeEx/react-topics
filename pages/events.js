@@ -17,6 +17,7 @@ export default function Events() {
   const handleSubmit = (event) => {
     event.preventDefault();
     setEventText('Form Submitted!');
+    // setInputValue('');
   };
 
   const handleReset = () => {
